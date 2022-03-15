@@ -1,12 +1,12 @@
-#include "0-putchar.h"
+#include "_putchar.h"
 /**
  * main - Entry point
- * Description: prints '0-putchar \n'
+ * Description: prints '_putchar \n'
  * Return: Always 0 (success)
  */
 int main(void)
 {
-char str[] = "0-putchar\n";
+char str[] = "_putchar\n";
 int i = 0;
 
 while (str[i] != '\0')
